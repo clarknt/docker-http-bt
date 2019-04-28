@@ -11,21 +11,21 @@ wrk: https://github.com/wg/wrk
 ## Build
 
 ```sh
-$ docker build -t docker-h2load .
+$ docker build -t clarknt/docker-http-bt .
 ```
 
 ## Run
 
 ```sh
-$ docker run -it docker-h2load /bin/bash
+$ docker run -it clarknt/docker-http-bt /bin/bash
 ```
 
 ## Available commands
 
 ```sh
-ab
-h2load
-hey
-siege
-wrk
+$ ab
+$ h2load
+$ hey
+$ siege
+$ wrk
 ```
