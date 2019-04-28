@@ -31,4 +31,4 @@ RUN \
     mv /opt/wrk/build/wrk /opt/wrk && \
     rm -rf /opt/wrk/build && \
     export PATH=$PATH:/opt/wrk
-ENV PATH="${PATH}:/opt/wrk"
+    ENV PATH="${PATH}:/opt/wrk"
